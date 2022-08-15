@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class MultiTable {
+    public static void main (String[] args){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the number you want multiplication table of : ");    
+    int n = sc.nextInt();
+    int i = 1;
+    while (i!=11){
+        int table = n*i;
+        System.out.println(n+" x "+i+" = "+table);
+        i++;
+    }
+}
+}
